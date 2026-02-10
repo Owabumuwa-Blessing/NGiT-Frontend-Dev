@@ -1,7 +1,4 @@
-**Name:** Blessing  
-**NGiT Frontend:**
-
-## What I Learned This Week (Short Summary)
+# What I Learned This Week (Short Summary)
 - The web works by: browser → requests HTML from server → server sends HTML → browser reads and displays it.
 - HTML is the **structure** CSS is the **style** and JavaScript is **behaviour**
 - Block elements: p, h1-h6, ul, ol, li (new line + full width)
@@ -49,5 +46,6 @@ These tags helped me structure the page clearly and meaningfully:
 - `<p>` → Writing paragraphs
 - `<ul>` + `<li>` → Creating clean bullet lists
 - `<br>` → Line break  
+
 
 Thank you for reviewing my Week 2 submission!
