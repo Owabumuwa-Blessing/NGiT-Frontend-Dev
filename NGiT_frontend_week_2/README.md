@@ -35,7 +35,7 @@ It includes:
 - A profile image
 - A short about section
 - A list of current skills
-- A summary of the most useful HTML tags I learned this week
+- A summary of what I learned this week
 
 ## Most Useful Tags This Week
 These tags helped me structure the page clearly and meaningfully:
@@ -44,8 +44,4 @@ These tags helped me structure the page clearly and meaningfully:
 - `<img>` → Adding images with important accessibility text
 - `<p>` → Writing paragraphs
 - `<ul>` + `<li>` → Creating clean bullet lists
-- `<br>` → Line break  
-
-
-Thank you for reviewing my Week 2 submission!
-
+- `<br>` → Line break
