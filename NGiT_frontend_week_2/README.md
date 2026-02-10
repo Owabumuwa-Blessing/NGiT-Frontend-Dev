@@ -1,4 +1,4 @@
-# What I Learned This Week (Short Summary)
+# What I Learned This Week
 - The web works by: browser → requests HTML from server → server sends HTML → browser reads and displays it.
 - HTML is the **structure** CSS is the **style** and JavaScript is **behaviour**
 - Block elements: p, h1-h6, ul, ol, li (new line + full width)
@@ -39,7 +39,6 @@ It includes:
 
 ## Most Useful Tags This Week
 These tags helped me structure the page clearly and meaningfully:
-
 - `<h1>` → Main title of the page (should be used only once)
 - `<h2>` → Section titles (very useful for organizing content)
 - `<img>` → Adding images with important accessibility text
@@ -49,3 +48,4 @@ These tags helped me structure the page clearly and meaningfully:
 
 
 Thank you for reviewing my Week 2 submission!
+
