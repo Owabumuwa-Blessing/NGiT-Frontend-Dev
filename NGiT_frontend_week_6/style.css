@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    position:sticky; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    align-items: center;
+    width: 100%;
+    /* Box shadow values: h-offset, v-offset, spread, color */
+    box-shadow: 0 2px 10px black;
+}
+.logo img{
+    width: 150px;
+    height:150px;
+}
+ul{
+    display: flex;
+    text-align: end;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #1a0030;
+    font-weight: bold;
+}
+.hero-section{
+    height:50vh;
+    background: linear-gradient(130deg, rgba(123, 47, 190,0.8) 0%, rgba(194, 24, 91,0.9) 50%, rgba(245, 130, 13,0.8) 100%), url("Image/ChatGPT\ Image\ Mar\ 11\,\ 2026\,\ 08_42_10\ AM.png");
+}
+.hero-section h1{
+    color: #f5f5f5;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px;
+}
+.hero-section hr{
+    border: none;
+    border-top: 2px solid #FFD700;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+ .hero-section p{
+    color: #f8f4df;
+    text-align: center;
+    font-size: 18px;
+    max-width: 700px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    background-color:#5b1f65;
+    justify-content: center;
+    margin-top: 3px;
+    padding: 20px;
+    gap: 20px;
+}
+.card{
+    background-color: #F3E5F5;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+.card:hover{
+    background-color: #888888;
+    color: white;
+    border-left: 5px solid #2DB84B;
+}
+.card > img, h2, p{
+    padding: 15px;
+}
+.card h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #6a0dad;
+    margin-bottom: 4px;
+}
+.card-role{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #E07820;
+    margin-bottom: 20px;
+}
+.card-bio{
+    font-size: 14px;
+    font-weight: normal;
+    color: #444444;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #E07820;
+    object-fit: cover;
+    margin: 20px;
+}
+.card a{
+    text-decoration: none;
+}footer{
+    background-color: #BF5A00;
+    padding: 40px;
+    font-size: 12px;
+}
+footer p{
+    font-family: cursive;
+    font-size: 10px;
+    color: #f0e6ff;
+}
+footer hr{
+    border: none;
+    border-top: 2px solid #b89e06;
+}
