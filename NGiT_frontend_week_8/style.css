@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(196, 247, 225) !important;
+    margin: 0;
+    padding: 0;
+}
+/* ----------------- CSS Grid ----------------- */
+.featured-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    /* place-items: start; */
+    padding: 16px;
+}
+.big-card {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.big-card img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.small-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.small-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.big-card:hover,
+.small-card:hover {
+    transform: translateY(-5px);
+}
+.fw-text,
+.small-card div:last-child {
+    padding: 16px;
+}
+h2, h3, h5 {
+    font-size: 20px !important;
+}
+p {
+    font-size: 15px;
+    color: #96be03;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.cont p{
+    color: antiquewhite;
+}
+span{
+    color: rgb(1, 99, 1);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+/* ----------------- Responsiveness----------------- */
+@media (max-width: 480px) {
+    .featured-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+    .big-card {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .big-card img {
+        height: 300px;
+    }
+    .small-card img {
+        height: 300px;
+    }
+    h2 {
+    font-size: 14px !important;
+}
+}
