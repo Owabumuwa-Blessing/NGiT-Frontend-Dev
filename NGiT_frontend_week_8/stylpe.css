@@ -1,0 +1,123 @@
+/* ----------------- Global Styles ----------------- */
+body {
+    background-color: rgb(196, 247, 225);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- Header ----------------- */
+header h1 {
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ----------------- Featured Grid ----------------- */
+.featured-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Big featured card */
+.big-card {
+    grid-row: span 2;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+/* Small cards */
+.small-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+/* Images */
+.featured-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hover effect */
+.big-card:hover,
+.small-card:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+
+/* Text inside cards */
+.fw-text,
+.small-card div:last-child {
+    padding: 15px;
+}
+
+/* ----------------- Portfolio Cards ----------------- */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+/* Equal image sizes */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card text */
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    color: #555;
+    font-size: 14px;
+}
+
+/* ----------------- Typography ----------------- */
+h2 span {
+    color: rgb(1, 99, 1);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* ----------------- Footer ----------------- */
+footer {
+    margin-top: 40px;
+}
+
+.cont p {
+    color: #f8f9fa;
+}
+
+/* ----------------- Mobile Responsiveness ----------------- */
+@media (max-width: 480px) {
+    body {
+        background-color: #f0fdf4;
+    }
+
+    h2 span {
+        font-size: 22px;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+}
