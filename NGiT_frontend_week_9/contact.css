@@ -1,0 +1,61 @@
+body{
+    padding-top: 200px;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+.offcanvas-title{
+    font-weight: bold;
+    color: purple;
+}
+.nav-link{
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: purple;
+        }
+.logo-text{
+    color: purple;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.logo-text p{
+    font-size: 16px;
+    color: plum;
+    text-align: center;
+}
+footer{
+    background-color:darkgray;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(72, 2, 72);
+    font-weight: bold;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.contact-info h4{
+    margin-top: 20px;
+    color: purple;
+}
+.social-links a{
+    display: inline-block;
+    margin: 6px 8px 0 0;
+    padding: 8px 12px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    text-decoration: none;
+    color: purple;
+    transition: 0.3s;
+}
+.social-links a:hover{
+    background: purple;
+    color: white;
+}

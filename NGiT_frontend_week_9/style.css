@@ -1,0 +1,104 @@
+body{
+    padding-top: 100px;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+.offcanvas-title{
+    font-weight: bold;
+    color: purple;
+}
+.nav-link{
+    font-weight: bolder;
+}
+.nav-link:hover{
+    color: purple;
+        }
+.logo-text{
+    color: purple;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.logo-text p{
+    font-size: 16px;
+    color: plum;
+    text-align: center;
+}
+.hero-container{
+    height:100vh;
+    background: linear-gradient(150deg,
+        rgba(234, 14, 234, 0.5)30%,
+        rgba(215, 8, 215, 0.7) 70%), url("Image/360°\ Edibles\ team.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-container p{
+    font-size: 30px;
+    color: blanchedalmond;  
+    font-weight: bold;
+}
+.hero-container h1{
+    font-size: 60px;
+    color: rgb(247, 204, 247);  
+    font-weight: bolder;
+}
+button{
+    background-color: plum;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: rgb(56, 1, 56);
+    color: rgb(105, 0, 105);
+    font-weight: bold;
+}
+.btn{
+    text-decoration: none;
+    color: rgb(105, 0, 105);
+    background: linear-gradient(wheat);
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 2px solid purple;
+    padding:15px 25px;
+    border-radius: 15px 5px;   
+}
+.btn:hover{
+    color: black;
+    border: none;
+    background: linear-gradient(wheat, rgb(240, 28, 240));
+    font-weight: bolder;
+    padding: 20px 35px;
+    border-radius: 15px;
+}
+.pdt{
+    background-color: rgb(244, 229, 244);
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+.pdt h4{
+    font-size: 30px;
+    color: purple;  
+    font-weight: bold;
+}
+.pdt a{
+    text-decoration: none;
+    color: rgb(251, 189, 74);
+}
+footer{
+    background-color:darkgray;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(72, 2, 72);
+    font-weight: bold;
+}

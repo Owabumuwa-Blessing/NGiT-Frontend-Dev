@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact of 360° Edibles</title>
+    <link rel="icon" type="image" href="Image/360° Edibles promotional design.png">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+     <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+        <div class="logo">
+            <img src="Image/Logo.png" alt="360° Edibles Logo">
+        </div>
+        <div class="logo-text">
+            <h1>Contact</h1>
+        </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">360° Edibles</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+        <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="services.html">Products & Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- A contact form with the following fields:Name, Email, Message 
+* JavaScript validation is required
+* Include address, phone number, or social media links 
+-->
+<div class="container my-5">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+        <div>
+        <form id="contactForm">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required>
+        <br><br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
+        <br><br>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your Order" rows="5" cols="20" required></textarea>
+        <br><br>
+            <button type="submit" id="magicButton">Place your order</button>
+        </form>
+        </div>
+
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong>1,Musili street, Oko-Oba,Agege, Lagos.</p>
+            <p><strong>Phone:</strong> 08160302006</p>
+            <p><strong>Email:</strong> info@360edibles.ng</p>
+        </div>
+
+    <h4>Follow Us</h4>
+        <div class="social-links">
+            <a href="https://instagram.com/360degree_edibles" target="blank">Instagram</a>
+            <a href="https://www.tiktok.com/@360degreeedibles" target="blank">TikTok</a>
+            <a href="https://wa.me/2348030000000" target="blank">WhatsApp</a>
+        </div>
+
+    </div>
+</div>
+
+ <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy 2026 - 360° Edibles. All Rights Reserved. <br>
+            Lagos, Nigeria
+        </p>
+    </footer>
+    
+<!-- JAVASCRIPT -->
+<script>
+const textElement = document.getElementById("fullname");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+const btn = document.getElementById("magicButton");
+
+// Add an event listener
+document.getElementById("contactForm").addEventListener("click", () => {
+    // Text styling
+    textElement.style.color = "purple";
+    textElement.style.fontSize = "24px";
+    btn.style.color = "royalblue";
+    btn.innerHTML = "Thanks for your patronage, we love you";
+    // change button text
+    btn.innerText = "DONE";
+        }
+    );
+</script>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
