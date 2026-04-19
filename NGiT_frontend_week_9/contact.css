@@ -1,5 +1,5 @@
 body{
-    padding-top: 200px;
+    padding-top: 300px;
 }
 .logo img{
     height: 200px;
@@ -25,25 +25,54 @@ body{
     color: plum;
     text-align: center;
 }
-footer{
-    background-color:darkgray;
+.container{
+    max-width: 1000px;
+    width: 90%;
+    background-color: rgb(247, 194, 247);
+    margin: 0px auto;
     padding: 20px;
-}
-footer p{
-    text-align: center;
-    font-family: cursive;
-    font-size: 16px;
-    color: rgb(72, 2, 72);
-    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
 }
 .contact-grid{
+    margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr;
+    gap: 25px;
 }
-.contact-info h4{
-    margin-top: 20px;
-    color: purple;
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(146, 0, 223);
+    box-shadow: 0 0 10px grey;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.success{
+    color: green;
+}
+h3, h4{
+    color: rgb(207, 4, 207);
+    font-weight: bolder;
 }
 .social-links a{
     display: inline-block;
@@ -58,4 +87,22 @@ footer p{
 .social-links a:hover{
     background: purple;
     color: white;
+}
+footer{
+    background-color:darkgray;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(72, 2, 72);
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .contact-grid{
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        gap: 40px;
+    }
 }
