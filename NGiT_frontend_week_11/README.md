@@ -17,4 +17,4 @@ When rendering lists, React uses a `key` prop to track which DOM elements corres
 **5. Integration with backends and databases**
 When syncing with a server or database, every record needs a unique identifier. Building that habit locally (even in a simple todo app) mirrors how real systems work — the DB row's primary key is always an ID, not the content.
 
-**text describes a task, an ID *identifies* it.** They serve different purposes, and conflating them creates bugs that are hard to debug as your app grows.
+**Text describes a task, an ID *identifies* it.** They serve different purposes, and conflating them creates bugs that are hard to debug as your app grows.
